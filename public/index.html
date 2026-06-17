@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Futebol API - Gestão de Mensalistas</title>
+    <link rel="stylesheet" href="/App.css" />
+    <!-- React e ReactDOM (versões estáveis) -->
+    <script crossorigin src="https://unpkg.com/react@18.2.0/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
+    <!-- Babel standalone para compilar JSX no navegador -->
+    <script src="https://unpkg.com/@babel/standalone@7.23.9/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <!-- Seu App.js será compilado pelo Babel -->
+    <script type="text/babel" src="/App.js"></script>
+    <!-- Fallback caso o script falhe -->
+    <script>
+        console.log('HTML carregado, aguardando React...');
+    </script>
+</body>
+</html>
